@@ -2,7 +2,7 @@
     $server="localhost";
     $username="root";
     $password="";
-    $db="login";
+    $db="tienda";
     
     $conexion=mysqli_connect($server,$username,$password,$db) or die ("no se establece conexion");
     
